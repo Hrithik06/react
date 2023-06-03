@@ -1,0 +1,11 @@
+.flex-all-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.hover-pointer {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.871fbde8.css.map */

@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Mulish, sans-serif;
+}
+
+p#name {
+  font-size: 17px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.logo, .logo-container {
+  height: 100%;
+}
+
+.header {
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+  display: flex;
+}
+
+.nav-items > ul {
+  padding: 0 25px 0 0;
+  font-size: 1.3rem;
+  display: flex;
+}
+
+.nav-items > ul :hover {
+  color: gray;
+}
+
+.nav-items > ul > li {
+  padding: 15px;
+  list-style-type: none;
+}
+
+.nav-items > ul > li :hover {
+  color: red;
+  font-weight: 900;
+}
+
+.search {
+  margin: 10px;
+}
+
+.res-container {
+  min-height: 80vh;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  display: grid;
+}
+
+.res-card {
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  border: 1px solid #b6b2b2;
+  box-shadow: 1px 1px 10px gray;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+footer {
+  height: 10vh;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=index.b2625c6b.css.map */
