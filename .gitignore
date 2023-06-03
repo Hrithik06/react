@@ -1,5 +1,8 @@
 .vscode/
 node_modules/
 editing/
+# Ignore the dist folder
 dist/
+
+# Ignore the .parcel-cache folder
 .parcel-cache/
