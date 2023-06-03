@@ -4,12 +4,14 @@
   "description": "Igniting the app with parcel ",
   "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+     "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Hrithik",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.8.3",
+    "parcel": "^2.9.1",
     "process": "^0.11.10"
   },
   "dependencies": {
