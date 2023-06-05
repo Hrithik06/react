@@ -1,4 +1,3 @@
-This is my react repo. I'm learning react and going through a course. I will be posting the things I learn on the course in this repo. Putting out what I learn out in the world.
 ## Parcel
 - Dev Build
 - Local Server
@@ -19,7 +18,7 @@ This is my react repo. I'm learning react and going through a course. I will be 
 - Different dev and prod bundles
 
 
-## Delivery App
+Delivery App
 
 Header
   - Logo
@@ -38,7 +37,7 @@ Footer
   - Contact
 
 
-## Two types of Export/Import
+Two types of Export/Import
 ### Default Export/Import
 
     export default Component; 

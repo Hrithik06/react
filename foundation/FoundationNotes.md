@@ -125,11 +125,13 @@ JSX is a extension for JS which allows us to write HTML-like code in JS file. It
 <br>
 <br>
 
-## {TitleComponent} vs {&lt;TitleComponent/&gt;} vs {&lt;TitleComponent&gt;&lt;/TitleComponent&gt;} in JSX 
-{TitleComponent} : Does not render anything. It is a reference to the component function. - {&lt;TitleComponent/&gt;} : It is a self-closing tag and renders the component with no children. - {&lt;TitleComponent&gt;&lt;/TitleComponent&gt;} : Is an opening and closing tag that renders the component with an empty children array.
+## {TitleComponent} vs {\<TitleComponent/>} vs {\<TitleComponent>\</TitleComponent>} in JSX 
+- {TitleComponent} : Does not render anything. It is a reference to the component function. 
+- {\< TitleComponent/>} : It is a self-closing tag and renders the component with no children. 
+- {\<TitleComponent>\</TitleComponent>} : Is an opening and closing tag that renders the component with an empty children array.
  
   | Expression | Equivalent |
   |-------------------------------------|-----------------------------------------------|
   | {TitleComponent} | Does not render anything. |
-  | {&lt;TitleComponent/&gt;} | React.createElement(TitleComponent, null) |
-  | {&lt;TitleComponent&gt;&lt;/TitleComponent&gt;} | React.createElement(TitleComponent, null, []) |
+  | {\<TitleComponent/>} | React.createElement(TitleComponent, null) |
+  | {\<TitleComponent>\</TitleComponent>} | React.createElement(TitleComponent, null, []) |
