@@ -49,4 +49,3 @@ When exporting multiple things use named export.
     import {Component} from "path":
 
 
-Can we use default export along with named export?
