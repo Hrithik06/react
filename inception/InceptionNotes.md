@@ -1,6 +1,6 @@
 ## What is Emmet?
 
-Emmet is a plug-in for text editors that allow to type shortcuts which are expanded into full piece of code.
+Emmet is a plug-in for text editors that allows to type shortcuts which are expanded into full piece of code.
   For Example: 
   ```html 
   div>h1
@@ -11,19 +11,19 @@ Emmet is a plug-in for text editors that allow to type shortcuts which are expan
   ```
 ## Difference between library and framework
 
-Library is used to enhance th efunctionality of an application. A library can be included in existing project, it can also be included only for a part of application. Framework is used for building and deploying an app, framework facilitates with a lot of resources. The framework controls calling of libraries of user code whereas in case of library user code cntrols when and where to call library.
+Library is used to enhance th functionality of an application. A library can be included in existing project, it can also be included only for a part of application. Framework is used for building and deploying an app, framework facilitates with a lot of resources. The framework controls calling of libraries of user code whereas in case of library user code cntrols when and where to call library.
 
 ## What is CDN? Why do we use it?
 
-A CDN (Content Delivery Network) is agroupof servers spread out over many locations of globe, these servers cache content to fulfill data requests to the closest end users. CDNs are used for deliverying JS files of libraries like React, jQuery, Bootstrap. CDN reduces latency and takes out the load from the website with loading content and libraries.
+A CDN (Content Delivery Network) is a group of servers spread out over many locations of globe, these servers cache content to fulfill data requests to the closest end users. CDNs are used for deliverying JS files of libraries like React, jQuery, Bootstrap. CDN reduces latency and takes out the load from the website with loading content and libraries.
 
 ## Why React is know as React?
 
-React is named react because it reflects the library's nature of updating the components automatically when there is change in data. It helps developers to build UIs which are fast and responsive or "reactive".
+React is named React because it reflects the library's nature of updating the components automatically when there is change in data. It helps developers to build UIs which are fast and responsive or "reactive".
 
 ## What is cross-origin in the script tag?
 
-The crossorigin attribute in a &ltscript> tag is used to set the mode of the request to an HTTP CORS request. CORS stands for Cross-Origin Resource Sharing and is a mechanism that allows resources on a web page to be requested from another domain outside their own domain. The crossorigin attribute allows servers to specify who can access the assets on the server, among many other things.
+The crossorigin attribute in a <script> tag is used to set the mode of the request to an HTTP CORS request. CORS stands for Cross-Origin Resource Sharing and is a mechanism that allows resources on a web page to be requested from another domain outside their own domain. The crossorigin attribute allows servers to specify who can access the assets on the server, among many other things.
 
 ## What is difference between React and ReactDOM
 
@@ -36,6 +36,6 @@ Difference between the development and production builds of React is that the pr
 ## Async and Defer
 
 When browser loads the webpage, it starts parsing the html document page.
-- In normal circumstances when the browser encounters the scripts it fetches the script and starts executing once fetched. As the script is being fetched and executed the parsing of html is paused and resumed once execution is script is completed.
-- Async : When the script tag contains "async" attribute, the html is loaded and when the script is encountered it is fetched  aralley alongisde the html, once fetching is competed the execution of script starts and parsing of html is paused till the  execution of script completes and the html parsing is resumed.
+- In normal circumstances when the browser encounters the scripts it fetches the script and starts executing once fetched. As the script is being fetched and executed the parsing of html is paused and resumed once execution of script is completed.
+- Async : When the script tag contains "async" attribute, the html is loaded and when the script is encountered it is fetched alongisde the html, once fetching is completed the execution of script starts and parsing of html is paused till the  execution of script completes and the html parsing is resumed.
 - Defer : The "defer" attribute is in script tag the parsing of html is started by the browser and fetching of script is done parallely without any pause in the parsing of html. Once the parsing of html is completed and rendered, the execution of script is carried out by browser.
