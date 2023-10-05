@@ -1,6 +1,6 @@
 ## What is Emmet?
 
-Emmet is a plug-in for text editors that allow to type shortcuts which are expanded intu full piece of code.
+Emmet is a plug-in for text editors that allow to type shortcuts which are expanded into full piece of code.
   For Example: 
   ```html 
   div>h1
