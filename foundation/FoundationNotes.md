@@ -54,11 +54,13 @@ Error detection and handling becomes intuitive.
 
 ## Components
 
-Components are building-blocks in react apps. They are used to write reusable and maintainable code. Components are written to follow [Single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle), one component do only one thing, so that components can be reused. There are two types of Components - Class based Components: which is no longer preferred. - Functional Components: It is just a normal JS function which returns some piece of JSX elements.
+Components are building-blocks in react apps. They are used to write reusable and maintainable code. Components are written to follow [Single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle), one component do only one thing, so that components can be reused. There are two types of Components 
+- Class based Components: which is no longer preferred.
+- Functional Components: It is just a normal JS function which returns some piece of JSX elements.
 
 ## Functional Components
 
-Functional Components are just JS functions which return JSX elements. They take props as input also components without props also exist. These components can be reused. Functional components cn be defined using function keyboard and arrow functions.
+Functional Components are just JS functions which return JSX elements. They take props as input also components without props do exist. These components can be reused. Functional components can be defined using `function` keyword and arrow functions.
 
 For Example:
 
@@ -85,7 +87,7 @@ return(
   ```
 
 ## Composing Components
-  Component Composition is a technique in react where a bew component is created using exisiting components. For Example:
+  Component Composition is a technique in react where a new component is created using exisiting components. For Example:
   ```jsx
   const Title = () => <h2>Title Element</h2>;
   const Heading = () => (
@@ -119,8 +121,8 @@ JSX is a extension for JS which allows us to write HTML-like code in JS file. It
 `type` attribute in script tag indicates the type of script. Script tag can have four types:
 
 - Classic JS: If the attribute is not set or empty string then it is interprted as classic JS.
-- JS module: If `type="module"` then it is interpreted as JS module. A module is a self-contained, organised JS code which are imported and can be reused by other modules too.
-- Import Map: If `type="importmap"` indicates that body of elements contains an import map. Import maps is a JSON object.
+- JS module: If `type="module"` then it is interpreted as JS module. A module is a self-contained, organised JS code which is imported and can be reused by other modules too.
+- Import Map: If `type="importmap"` indicates that body of elements contains an import map. Import map is a JSON object.
 - Data Block: Any other value is considered as a data block and is not processed by the browser.
 <br>
 <br>
