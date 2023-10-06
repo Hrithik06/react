@@ -34,7 +34,7 @@ React Fiber is reimplementation of React's core algorithm. It was introduced in 
 Keys are essential when rendering lists. React uses keys to identify which items have changed, are added or removed. React can avoid re-rendering the entire list if only a small part of it has changed, improving the performance. 
 
 ## Can we use index as keys in React?
-Yes index can be used as keys, but it is not recommended to use index as keys. using index as keys can cause unpredictable behaviour when items are added or removed. Can lead to performance issues React will compare the indexes of eleemnts in array to determine change which will be a costly operation if array is large. If there are duplicate keys React will not be able to distinguish between them.  
+Yes, index can be used as keys, but it is not recommended to use index as keys. using index as keys can cause unpredictable behaviour when items are added or removed. Can lead to performance issues React will compare the indexes of eleemnts in array to determine change which will be a costly operation if array is large. If there are duplicate keys React will not be able to distinguish between them.  
 
 ## What is props in React? Ways to pass props?
 `props` is short for properties in React. props are used to pass data from parent component to child component. They are similar to function arguments in JavaScript. props are read-only, this ensures components act like pure functions with respect to their props. 
