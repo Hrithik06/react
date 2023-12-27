@@ -7,5 +7,3 @@ dist/
 # Ignore the .parcel-cache folder
 .parcel-cache/
 
-Export/
-Export.zip
