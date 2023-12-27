@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>onClick Example</title>
+    <script src="index.js"></script>
+    <script src="mapreducefilter.js"></script>
+
+    <script>
+        function handleClick() {
+            console.log('clicked')
+            alert('Button clicked!');
+
+        }
+
+        function handleBlur() {
+            var place = document.getElementById("inputField")
+            place.placeholder = "Where TF do u think going type here"
+            console.log('Input field lost focus.');
+        }
+
+        function handleChange(input) {
+            console.log('Input value changed to: ' + input.value);
+        }
+
+        function handleFocus() {
+            console.log('Input field is focused.');
+        }
+    </script>
+</head>
+
+<body>
+
+    <button onclick="handleClick()">Click Me</button>
+
+
+    <input id="inputField" type="text" onblur="handleBlur()" placeholder="onBlur Example...">
+
+
+    <input type="text" onchange="handleChange(this)" placeholder="onChange Example...">
+
+
+    <input type="text" onfocus="handleFocus()" placeholder="onFocus Example...">
+
+</body>
+
+</html>
