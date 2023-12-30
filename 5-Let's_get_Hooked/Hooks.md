@@ -76,3 +76,7 @@ React Hooks are utility JavaScript functions provided by React, encapsulating lo
 In React, two primary layers exist: the Data Layer and the UI Layer. The Data Layer manages data from APIs or databases and often contains logic related to data. Conversely, the UI Layer focuses on the user interface displayed to users and manages user interactions. As applications become increasingly configuration-driven and data-driven, there arises a need for synchronization between these layers. When data changes, the UI needs to reflect those changes promptly. The `useState` Hook bridges both layers, aiding in synchronizing them.
 
 A typical useState Hook accepts data, returns updated data, and a function used to update the data. Data can only be updated using this function and cannot be directly modified as with normal variables.
+```jsx
+  const [listOfRes, setListOfRes] = useState([]);
+//       updated,  function                 (initial value an array, null, empty array)
+```
